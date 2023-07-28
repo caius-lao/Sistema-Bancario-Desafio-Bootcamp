@@ -4,7 +4,7 @@ class Banco:
     MAX_SAQUE_DIA = 3
     MAX_SAQUE_VALOR = 500.0
     
-    def __init__(self, saldo):
+    def __init__(self, saldo = 0):
         self.saldo = saldo
         self.moviment = []
         self.cont_saque = 0
