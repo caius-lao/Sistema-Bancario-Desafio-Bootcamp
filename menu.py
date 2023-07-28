@@ -1,7 +1,7 @@
 from sistema_banco import Banco
 
 class Menu:
-    banco = Banco(1000)
+    banco = Banco()
     menu = """
     Operações:
     [d] Depósito
